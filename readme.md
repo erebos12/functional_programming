@@ -61,3 +61,5 @@ Idempotence is a property of certain operations/functions. A function is idempot
 `∀x f(f(x)) = f(x)`
 
 For instance, sorting a list is idempotent, as sorting it a second time has no effect.
+
+So in other words, I can call a function multiple times with same arguments and the result is the same as if I would call the function only once.
